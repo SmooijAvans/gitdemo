@@ -28,4 +28,13 @@ class DefaultController extends Controller
         // replace this example code with whatever you need
         return new Response("Hello");
     }
+    
+        /**
+     * @Route("/say/hello/threetimes", name="sayhello3")
+     */
+    public function sayHello(Request $request)
+    {
+        // replace this example code with whatever you need
+        return new Response("Hello");
+    }
 }

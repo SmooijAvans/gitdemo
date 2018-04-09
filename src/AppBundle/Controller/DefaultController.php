@@ -32,7 +32,7 @@ class DefaultController extends Controller
         /**
      * @Route("/say/hello/threetimes", name="sayhello3")
      */
-    public function sayHello(Request $request)
+    public function sayHello3(Request $request)
     {
         // replace this example code with whatever you need
         return new Response("Hello");

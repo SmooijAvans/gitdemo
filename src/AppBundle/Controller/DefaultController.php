@@ -35,6 +35,6 @@ class DefaultController extends Controller
     public function sayHello3(Request $request)
     {
         // replace this example code with whatever you need
-        return new Response("Hello");
+        return new Response("Hellow again");
     }
 }

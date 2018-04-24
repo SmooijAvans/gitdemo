@@ -37,4 +37,14 @@ class DefaultController extends Controller
         // replace this example code with whatever you need
         return new Response("Hellow again");
     }
-}
+    
+    /**
+     * @Route("/git/marice", name="gitmarice")
+     */
+    public function gitMarice(Request $request)
+    {
+        // replace this example code with whatever you need
+        return new Response("Marice werkt met git.");
+    }
+
+	}
